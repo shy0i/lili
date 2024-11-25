@@ -1,0 +1,81 @@
+Historique : 
+
+
+   65  cd Documents
+   66  cd coursppe1
+   67  cd PPE1-2024oumaya
+   68  mkdir Exercices
+   69  echo "Annotations en 2016 :" > Exercices/comptes.txt
+   70  cat ~/Documents/Exercice1/ann/2016/*.ann | wc -l >> Exercices/comptes.txt
+   71  cd Exercices
+   72  cat ~/Documents/Exercice1/ann/2016/*.ann | wc -l >> Exercices/comptes.txt
+   73  cd ..
+   74  cd ..
+   75  pwd
+   76  cd ..
+   77  cd Exercice1
+   78  cd ann
+   79  cat ~/Documents/Exercice1/ann/2016/*.ann | wc -l >> Exercices/comptes.txt
+   80  ls ~/Documents/Exercice1/ann/2016/
+   81  ls ~/Documents/Exercice1/ann/2016/
+   82  ls ~/Documents/coursppe1/Exercice1/ann/2016/
+   83  cat ~/Documents/coursppe1/Exercice1/ann/2016/*.ann | wc -l >> /Users/oumayachelbi/Documents/coursppe1/PPE1-2024oumaya/Exercices/comptes.txt
+   84  cat ~/Documents/coursppe1/Exercice1/ann/2016/01/*.ann | wc -l >> /Users/oumayachelbi/Documents/coursppe1/PPE1-2024oumaya/Exercices/comptes.txt
+   85  cat ~/Documents/coursppe1/Exercice1/ann/2016/*/*.ann | wc -l >> /Users/oumayachelbi/Documents/coursppe1/PPE1-2024oumaya/Exercices/comptes.txt
+   86  echo "Annotations en 2017 :" >> Exercices/comptes.txt
+   87  echo "Annotations en 2017 :" >> Users/oumayachelbi/Documents/coursppe1/PPE1-2024oumaya/Exercices/comptes.txt
+   88  pwd
+   89  cd ..
+   90  cd PPE1-2024oumaya
+   91  cd coursppe1
+   92  pwd
+   93  cd ..
+   94  pwd
+   95  cd PPE1-2024oumaya
+   96  echo "Annotations en 2017 :" >> Exercices/comptes.txt
+   97* cat ~/Documents/coursppe1/Exercice1/ann/2017/*/*.ann | wc -l >> /Users/oumayachelbi/Documents/coursppe1/PPE1-2024oumaya/Exercices/locations.txt
+   98  echo "Annotations en 2018 :" >> Exercices/comptes.txt
+   99  cat ~/Documents/coursppe1/Exercice1/ann/2018/*/*.ann | wc -l >> /Users/oumayachelbi/Documents/coursppe1/PPE1-2024oumaya/Exercices/comptes.txt
+  100  git status
+  101  git add Exercices/comptes.txt
+  102  git commit -m "Ajout de l'exercice 1.a"
+  103  git push
+  104  echo "Annotations Locations en 2016 :" > Exercices/locations.txt
+  105  grep "Location" ~/Documents/coursppe1/Exercice1/ann/2016/*/*.ann | wc -l >> Exercices/locations.txt
+  106  echo "Annotations Locations en 2017 :" > Exercices/locations.txt
+  107  grep "Location" ~/Documents/coursppe1/Exercice1/ann/2017/*/*.ann | wc -l >> Exercices/locations.txt
+  108  echo "Annotations Locations en 2018 :" > Exercices/locations.txt
+  109  grep "Location" ~/Documents/coursppe1/Exercice1/ann/2018/*/*.ann | wc -l >> Exercices/locations.txt
+  110  echo "Annotations Locations en 2016 :" > Exercices/locations.txt
+  111  grep "Location" ~/Documents/coursppe1/Exercice1/ann/2016/*/*.ann | wc -l >> Exercices/locations.txt
+  112  echo "Annotations Locations en 2017 :" >> Exercices/locations.txt
+  113  grep "Location" ~/Documents/coursppe1/Exercice1/ann/2017/*/*.ann | wc -l >> Exercices/locations.txt
+  114  echo "Annotations Locations en 2018 :" >> Exercices/locations.txt
+  115  grep "Location" ~/Documents/coursppe1/Exercice1/ann/2018/*/*.ann | wc -l >> Exercices/locations.txt
+  116  git status
+  117  git add Exercices/locations.txt
+  118  git commit -m "Ajout de l'exercice 1.b"
+  119  git push
+  120  grep "Location" ~/Documents/courppe1/Exercice1/ann/2016/*/*.ann | cut -f2 | sort | uniq -c | sort -nr | head -n 15 > Exercices/classement_2016.txt
+  121  cat ~/Documents/coursppe1/Exercice1/ann/2016/*/*.ann | grep "Location" | cut -f3 | sort | uniq -c | sort -nr | head -15 > Exercices/classement_2016.txt 
+  122  cat ~/Documents/coursppe1/Exercice1/ann/2017/*/*.ann | grep "Location" | cut -f3 | sort | uniq -c | sort -nr | head -15 > Exercices/classement_2017.txt 
+  123  cat ~/Documents/coursppe1/Exercice1/ann/2018/*/*.ann | grep "Location" | cut -f3 | sort | uniq -c | sort -nr | head -15 > Exercices/classement_2018.txt 
+  124  git status
+  125  git add Exercices/classement_2016.txt
+  126  Exercices/classement_2017.txt
+  127  git add Exercices/classement_2016.txt
+  128  git add Exercices/classement_2017.txt
+  129  git add Exercices/classement_2018.txt
+  130  git commit -m "ajout de l'exercice 2.a"
+  131  git push
+  132  cat ~/Documents/coursppe1/Exercice1/ann/*/01/*.ann | grep "Location" | cut -f3 | sort | uniq -c | sort -nr | head -15 > Exercices/classement_01.txt 
+  133  git status
+  134  git add Exercices/classement_01.txt
+  135  git commit -m "Exercice 2.b mois de janvier de toutes les années confondues"
+  136  git push
+  137  history
+  138  cd Exercice
+  139  cd Exercices
+  140  cd ..
+  141  touch Exercices/pipelines.txt
+  142  history
